@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# ToolHCL data and model artifacts are intentionally not versioned.
+data/
+models_hf/
+checkpoints/
+tool_l2p_runs*/
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Logs and local scratch files
+*.log
+tmux_run.log
+wandb/
+runs/
+tmp/
+
